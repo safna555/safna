@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Details</title>
+</head>
+<body>
+<div class="card-body">
+<div class="row">
+    <div class="card" style="width:300px;height:530px;">
+        <img src="{{data.image.url}}">
+        <h1>{{data.book_name}}<br>
+        {{data.author}}<br>
+        {{data.price}}</h1>
+        <a href="/delete/{{data.book_id}}"><input type="submit" value="delete"></a>
+         <a href="/update/{{data.book_id}}"><input type="submit" value="update"></a>
+    </div>
+    </div>
+</div>
+ </body>
+</html>

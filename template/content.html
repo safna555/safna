@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="background-color:aliceblue;text-align:center;">content</h1>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="name">name:</label><br>
+    <input type="text" id="name"name="book_name"><br>
+    <label for="name">Author</label><br>
+    <input type="text" id="name" name="author"><br>
+    <label for="name">price</label><br>
+    <input type="text" id = "name" name="price"><br>
+    <label for="name">upload</label><br>
+    <input type="file" id = "name" name="image"><br>
+    <input type="submit" value="Submit"></a>
+<br>
+<a href='/home2/'><br>GO BACK</a></br
+</form>
+</body>
+</html>
